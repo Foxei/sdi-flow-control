@@ -173,7 +173,7 @@ RUN for arch in arm64 x86_64; do \
 # ---------------------------------------------------------------------------
 # Export stages: copy the packaged application into the mounted /dist
 # ---------------------------------------------------------------------------
-FROM busybox:stable AS export
+FROM alpine:3.24 AS export
 CMD ["sh", "-c", "cp -a /out/. /dist/ && chown -R \"$(stat -c %u:%g /dist)\" /dist && echo \"Done: $(ls /out)\""]
 
 FROM export AS linux
