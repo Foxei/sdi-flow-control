@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Real-Time Fluid
+Comment=Interactive 2D flow simulation with Qt
+Exec=RealTimeFluid
+Icon=RealTimeFluid
+Categories=Education;Science;Physics;

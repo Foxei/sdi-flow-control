@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['shift_5f',['shift_',['../class_aspect_ratio_holder.html#ad56a58e6ab2117e91c79e68a5d3a6a90',1,'AspectRatioHolder']]],
+  ['should_5ftimestep',['should_timeStep',['../struct_simulation_data.html#a91bcd892fc8174b64654c7a107188a14',1,'SimulationData']]],
+  ['sidebar_5f',['sidebar_',['../class_main_controller.html#aa69b5ca0f2b228fa865fb7d707bcf864',1,'MainController::sidebar_()'],['../class_main_window.html#a825fd0a3643379b5412a3a8d410bbf05',1,'MainWindow::sidebar_()']]],
+  ['simulation_5fcontrol_5f',['simulation_control_',['../class_main_controller.html#a0e7c7d46b62da7c4d688ca27058244d4',1,'MainController::simulation_control_()'],['../class_main_window.html#af23e109c1e0aaf77d8dbfe3ba2208faa',1,'MainWindow::simulation_control_()']]],
+  ['simulation_5fdisplay_5f',['simulation_display_',['../class_main_controller.html#a67a8d177b5bd56589c575465729a38d8',1,'MainController::simulation_display_()'],['../class_main_window.html#abacc7bb3ca0520a8d73dc52da13cc5b6',1,'MainWindow::simulation_display_()']]],
+  ['solver',['SOLVER',['../class_data.html#a7253fe04e3efc65f3f957635ff48ba6e',1,'Data']]],
+  ['solver_5f',['solver_',['../class_worker.html#a37bb50cb3d0b8d31431a86154907062a',1,'Worker']]],
+  ['speed_5f',['speed_',['../class_solver.html#a379a5592d19b4974f650cc154fb14ba1',1,'Solver']]],
+  ['spin_5fdiff_5f',['spin_diff_',['../class_sidebar.html#a0f8bac65632a33d1c00377a9a72767d5',1,'Sidebar']]],
+  ['spin_5fforce_5f',['spin_force_',['../class_sidebar.html#a11ec3e8001b281fd8d97535b58847879',1,'Sidebar']]],
+  ['spin_5flinear_5fiterrations_5f',['spin_linear_iterrations_',['../class_sidebar.html#ad7d052dc46f7615934b3dc19897b82c7',1,'Sidebar']]],
+  ['spin_5fspeed_5f',['spin_speed_',['../class_sidebar.html#a5a7f51ebd32f29f2319501a298f7c5fe',1,'Sidebar']]],
+  ['spin_5ftimestep_5f',['spin_timestep_',['../class_sidebar.html#a7b243020ad004f434fd1d6a75599e28d',1,'Sidebar']]],
+  ['spin_5fupdate_5fcolor_5ffield_5f',['spin_update_color_field_',['../class_sidebar.html#ae656faed9f8f678b83c6d28c82512f4f',1,'Sidebar']]],
+  ['spin_5fvisc_5f',['spin_visc_',['../class_sidebar.html#a875f6f47126fe745a9eb624b26135c09',1,'Sidebar']]],
+  ['statusbar_5f',['statusbar_',['../class_main_controller.html#a5f1c251119f2792c2e88c77f22439a53',1,'MainController::statusbar_()'],['../class_main_window.html#aa4a79d13b12e4c36849ed144655ec382',1,'MainWindow::statusbar_()']]],
+  ['storage_5fbar_5f',['storage_bar_',['../class_main_controller.html#a4a6d889dbbe5b7f738f8bb8f237da0d7',1,'MainController']]],
+  ['storebar_5f',['storebar_',['../class_main_window.html#af39779980d11c6e24ed98d4ea8979cae',1,'MainWindow']]]
+];

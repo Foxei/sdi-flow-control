@@ -1,0 +1,22 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/add.svg</file>
+        <file>icons/app.svg</file>
+        <file>icons/chevron-down.svg</file>
+        <file>icons/chevron-right.svg</file>
+        <file>icons/clear.svg</file>
+        <file>icons/density.svg</file>
+        <file>icons/divergence.svg</file>
+        <file>icons/eraser.svg</file>
+        <file>icons/error.svg</file>
+        <file>icons/info.svg</file>
+        <file>icons/ok.svg</file>
+        <file>icons/pressure.svg</file>
+        <file>icons/remove.svg</file>
+        <file>icons/restart.svg</file>
+        <file>icons/sidebar.svg</file>
+        <file>icons/velocity.svg</file>
+        <file>presets/simulations.json</file>
+    </qresource>
+</RCC>

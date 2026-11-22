@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2D3340"/>
+      <stop offset="1" stop-color="#14171C"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="200" y1="0" x2="824" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#3FD5F5"/>
+    </linearGradient>
+    <radialGradient id="cylinder" cx="0.38" cy="0.32" r="0.8">
+      <stop offset="0" stop-color="#B4B8C2"/>
+      <stop offset="1" stop-color="#6E727C"/>
+    </radialGradient>
+    <clipPath id="tile">
+      <rect x="100" y="100" width="824" height="824" rx="185"/>
+    </clipPath>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <g clip-path="url(#tile)" fill="none" stroke="url(#flow)" stroke-width="30" stroke-linecap="round">
+    <path d="M200 242 C300 242 320 232 430 232 C540 232 580 242 660 248 S760 236 824 242" stroke-opacity="0.55"/>
+    <path d="M200 347 C300 347 320 331 430 331 C540 331 580 347 660 361 S760 333 824 347" stroke-opacity="0.8"/>
+    <path d="M200 442 C300 442 320 383 430 383 C540 383 580 442 660 476 S760 408 824 442" stroke-opacity="1.0"/>
+    <path d="M200 582 C300 582 320 641 430 641 C540 641 580 582 660 616 S760 548 824 582" stroke-opacity="1.0"/>
+    <path d="M200 677 C300 677 320 693 430 693 C540 693 580 677 660 691 S760 663 824 677" stroke-opacity="0.8"/>
+    <path d="M200 782 C300 782 320 792 430 792 C540 792 580 782 660 788 S760 776 824 782" stroke-opacity="0.55"/>
+  </g>
+  <circle cx="430" cy="512" r="78" fill="url(#cylinder)"/>
+  <circle cx="730" cy="596" r="26" fill="#FFC457"/>
+  <rect x="100.5" y="100.5" width="823" height="823" rx="184.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="3"/>
+</svg>
