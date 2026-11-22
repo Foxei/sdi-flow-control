@@ -1,10 +1,11 @@
 {
   "name": "SDI Flow Control (Qt 6)",
-  "build": {
-    "dockerfile": "../Dockerfile",
-    "context": "..",
-    "target": "dev"
-  },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dev",
+  "runServices": [
+    "dev"
+  ],
+  "workspaceFolder": "/workspaces/sdi-flow-control",
   "customizations": {
     "vscode": {
       "extensions": [

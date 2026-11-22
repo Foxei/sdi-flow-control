@@ -1,0 +1,12 @@
+# The dev container of devcontainer.json. A compose service, so the image gets a fixed name
+# (sdi-flow-control-dev) instead of the generated vsc-<repo>-<hash> tag of a plain "build" dev container.
+services:
+  dev:
+    image: sdi-flow-control-dev
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: dev
+    volumes:
+      - ..:/workspaces/sdi-flow-control
+    command: sleep infinity
