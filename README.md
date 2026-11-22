@@ -156,3 +156,7 @@ packaging/       cross-compilation toolchains, build and deployment scripts
 .github/         release workflow
 Dockerfile       build stages for the devcontainer and all platforms
 ```
+
+## License
+
+[GPL-3.0](LICENSE)

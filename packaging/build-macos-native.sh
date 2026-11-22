@@ -25,7 +25,9 @@ fi
 # Eigen (header only, same version as Ubuntu 24.04 in the dev container)
 EIGEN="${WORK}/eigen-3.4.0"
 if [[ ! -d "${EIGEN}" ]]; then
-  curl -fsSL https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz | tar -xz -C "${WORK}"
+  curl -fsSL -o "${WORK}/eigen.tar.gz" https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
+  echo "8586084f71f9bde545ee7fa6d00288b264a2b7ac3607b974e54d13e7162c1c72  ${WORK}/eigen.tar.gz" | shasum -a 256 -c -
+  tar -xzf "${WORK}/eigen.tar.gz" -C "${WORK}"
 fi
 
 # Build arm64 + x86_64 in one go
